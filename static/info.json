@@ -37,6 +37,7 @@
 		"cc.swf": {},
 		"go_full.swf": {},
 		"favicon.ico": {},
+		"logo.png": {},
 		"char_default.png": {
 			"content": "{\"message\":\"REQUEST_HAS_EXPIRED\"}"
 		},
