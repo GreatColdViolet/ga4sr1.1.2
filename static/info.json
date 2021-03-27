@@ -30,37 +30,23 @@
 		"cc.swf": {},
 		"go_full.swf": {},
 		"favicon.ico": {},
+		"logo.png": {},
 		"char_default.png": {
 			"content": "{\"message\":\"REQUEST_HAS_EXPIRED\"}"
 		},
-		"pages/html/(.*)": {
+		"html/(.*)": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
 			}
 		},
-		"pages/css/(.*)": {
+		"charcreator/(.*)": {
 			"headers": {
-				"Content-Type": "text/css; charset=UTF-8"
+				"Content-Type": "text/html; charset=UTF-8"
 			}
 		},
-		"pages/fonts/(.*)": {
+		"themelist.html(.*)": {
 			"headers": {
-				"Content-Type": "application/font-woff; charset=UTF-8"
-			}
-		},
-		"pages/img/(.*)(png|PNG)$": {
-			"headers": {
-				"Content-Type": "image/png"
-			}
-		},
-		"pages/img/(.*)(jpg|JPG|jpeg|JPEG)$": {
-			"headers": {
-				"Content-Type": "image/jpeg"
-			}
-		},
-		"pages/img/(.*)(svg|SVG)$": {
-			"headers": {
-				"Content-Type": "image/svg+xml; charset=UTF-8"
+				"Content-Type": "text/html; charset=UTF-8"
 			}
 		}
 	},
